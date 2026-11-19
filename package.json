@@ -1,0 +1,21 @@
+{
+    "name": "timelodge-day-summary",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "build": "tsc --noEmit && esbuild src/main.ts --bundle --external:obsidian --format=cjs --platform=browser --target=es2022 --outfile=main.js",
+        "format:check": "prettier --check .",
+        "test": "npm run build && node --test",
+        "check": "npm run format:check && npm test"
+    },
+    "devDependencies": {
+        "esbuild": "0.28.2",
+        "obsidian": "1.14.4",
+        "prettier": "3.10.1",
+        "typescript": "5.9.3"
+    },
+    "license": "MIT"
+}

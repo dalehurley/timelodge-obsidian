@@ -1,0 +1,10 @@
+{
+    "id": "timelodge-day-summary",
+    "name": "TimeLodge Day Summary",
+    "version": "0.1.0",
+    "minAppVersion": "1.11.4",
+    "description": "Create a Markdown note with recorded time and billable totals for a day in TimeLodge.",
+    "author": "TimeLodge",
+    "authorUrl": "https://timelodge.com",
+    "isDesktopOnly": true
+}
